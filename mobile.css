@@ -1,0 +1,40 @@
+
+.header{
+    position: fixed;
+    margin: 0px;
+    padding: 0px;
+    align-items: flex-start;
+   justify-content: start;
+}
+.left{
+   
+    font-size: 10px;
+}
+.navbar li a{
+    font-size: 10px;
+}
+.heading-section{
+    flex-direction: column;
+}
+.heading h1{
+    position: absolute;
+    font-size: 30px;
+}
+#about{
+    flex-direction: column;
+}
+#services{
+    flex-direction: column;
+}
+#service-container h1{
+    text-align: start;
+}
+#contact h1{
+font-size: 20px;
+text-align: start;
+}
+#form{
+    text-align: start;
+    margin-left: 0px;
+    width: 70%;
+}

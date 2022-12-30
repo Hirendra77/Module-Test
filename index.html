@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width:1170px)" href="mobile.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="left">Courier Services</div>
+        <div class="right">
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#service-container">Our Services</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <section id="home">
+        <div class="heading-section">
+            <div class="heading">
+                <h1>BUSINESS LANDING PAGE</h1>
+            </div>
+            <div class="imge1">
+                <img src="./imgage/courierboy.jpg " width="300px" height="200px" alt="photo">
+            </div>
+        </div>
+        <div class="icon">
+            <a href="#service-container"><i class="fa-solid fa-arrow-down-long"  id="arrow"></i></a>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="imge2">
+            <img src="./imgage/about.jpg" width="600px" alt="photo">
+        </div>
+        <div class="About">
+            <h3>ABOUT US</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio perferendis voluptate sit saepe pariatur
+                reprehenderit modi accusantium corporis officia. Molestias. Lorem ipsum dolor sit amet, consectetur
+                adipisicing elit. Quaerat ab eos, reiciendis accusamus optio est praesentium rerum accusantium eveniet
+                sunt.</p>
+        </div>
+    </section>
+    <section id="service-container">
+        <div>
+            <h1>OUR SERVICES</h1>
+        </div>
+        <div id="services">
+
+            <div class="card">
+                <h2>Service 1</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis alias facilis rerum eveniet unde
+                    soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis quo labore aperiam
+                    pariatur repellat delectus cumque quaerat aut nobis inventore?</p>
+            </div>
+            <div class="card">
+                <h2>Service 2</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis consectetur cum repellendus
+                    quasi quod? Aperiam, natus? Repellendus eligendi lrem20
+
+                </p>
+            </div>
+            <div class="card">
+                <h2>Service</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis consequuntur facere quis
+                    repellat illum assumenda officiis velit.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <h1>CONTACT US</h1>
+        <form id="form">
+            <div>
+                <input type="text" name="fname" value="" id="fname" placeholder="Full Name" required>
+            </div>
+            <div>
+                <input type="text" name="lname" value="" id="lname" placeholder="Last Name" required>
+            </div>
+            <div>
+                <input type="text" name="reason" value="" id="reason" placeholder="Reason for Contact" required>
+            </div>
+            <div>
+                <input type="email" name="email" value="" id="email" placeholder="Email Address" required>
+            </div>
+            <div>
+                <input type="button" value="submit" id="btn" onclick="submitForm()">
+            </div>
+        </form>
+
+    </footer>
+    <script src="main.js"></script>
+</body>
+
+</html>
